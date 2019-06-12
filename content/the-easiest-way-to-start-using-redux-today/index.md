@@ -521,7 +521,7 @@ We won’t analyze this code in too many details. But still, let’s give it a s
 
 -   First we create our todosMachine by passing our todosReducer that we heavily tested in a different file.
 -   We create addTodo() function that executes on “Add todo” button press and dispatches ADD\_TODO action.
--   toggleTodo() function looks similar. Except that it fires by clicking on a TODO’s <li> DOM element that contains data-id=”{todo.id}” attribute.
+-   toggleTodo() function looks similar. Except that it fires by clicking on a TODO’s `<li>` DOM element that contains data-id=”{todo.id}” attribute.
 -   Lastly we create render() function and subscribe to todosMachine’s changes so that it’s called every time the app state changes. For example when we add a new TODO or toggle a TODO.
 
 This is all we need to have the app working. Refresh your browser and enjoy your new TODO list app!
