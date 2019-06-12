@@ -11,7 +11,7 @@ module.exports = {
   author: 'Viktor Fonic',
   githubUrl: 'https://github.com/vfonic/blog',
   // replace this by the url where your website will be published
-  siteUrl: 'http://localhost:8000',
+  siteUrl: 'https://vfonic-blog.netlify.com/',
   social: {
     // leave the social media you do not want to appear as empty strings
     twitter: 'vfonic',
